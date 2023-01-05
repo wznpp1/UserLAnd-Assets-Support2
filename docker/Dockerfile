@@ -1,0 +1,5 @@
+FROM ubuntu:bionic
+
+ARG RUN_CMD
+ENV RUN_CMD ${RUN_CMD}
+CMD ${RUN_CMD}
